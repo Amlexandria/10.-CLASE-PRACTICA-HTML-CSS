@@ -1,0 +1,22 @@
+body{
+  background-color: #212121;
+}
+
+div#field{
+  background-color: #4CAF50;
+  height: 33em;
+  left: 22%;
+  top:3em;
+  position: relative;
+  width: 50em;
+
+}
+
+div#touch_Line{
+  border: 5px solid white;
+  height: 30em;
+  position: relative;
+  left: 1.2em;
+  top: 1.2em;
+  width: 47em;
+}
