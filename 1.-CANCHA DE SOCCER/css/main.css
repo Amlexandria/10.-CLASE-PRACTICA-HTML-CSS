@@ -29,10 +29,19 @@ div#touch_Line{
 }
 div div#left_goal_area{
   border-left: none;
-
 }
 div div#right_goal_area{
   border-right: none;
   right: 0;
+}
+div div#centre_cicle{
+  border: 5px solid white;
+  border-radius: 50%;
+  height: 10em;
+  position: relative;
+  top: 9.5em;
+  left: 18em;
+  width: 10em;
+
 
 }
