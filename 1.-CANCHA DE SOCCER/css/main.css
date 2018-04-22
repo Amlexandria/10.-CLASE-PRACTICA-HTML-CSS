@@ -15,8 +15,24 @@ div#field{
 div#touch_Line{
   border: 5px solid white;
   height: 30em;
-  position: relative;
   left: 1.2em;
+  position: relative;
   top: 1.2em;
   width: 47em;
+}
+.goal{
+  border: 5px solid white;
+  height: 16em;
+  position: absolute;
+  top: 6em;
+  width: 6em;
+}
+div div#left_goal_area{
+  border-left: none;
+
+}
+div div#right_goal_area{
+  border-right: none;
+  right: 0;
+
 }
