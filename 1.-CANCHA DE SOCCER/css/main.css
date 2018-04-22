@@ -80,7 +80,7 @@ div div#right_penalty_arc{
   right: 3em;
 }
 
-div div#centre_cicle{
+div div#center_cicle{
   border: 5px solid white;
   border-radius: 50%;
   height: 10em;
@@ -88,6 +88,13 @@ div div#centre_cicle{
   top: 9.5em;
   left: 18em;
   width: 10em;
+}
 
-
+div div#center_line{
+  background-color: white;
+  height: 30.3em;
+  left: 23em;
+  position: absolute;
+  top: .03em;
+  width: .3em;
 }
