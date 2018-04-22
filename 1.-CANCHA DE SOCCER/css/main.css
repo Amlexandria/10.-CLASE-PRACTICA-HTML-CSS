@@ -20,20 +20,66 @@ div#touch_Line{
   top: 1.2em;
   width: 47em;
 }
-.goal{
+
+.goal_area{
   border: 5px solid white;
   height: 16em;
   position: absolute;
   top: 6em;
   width: 6em;
 }
+
+.goal{
+  border: 5px solid white;
+  height: 7em;
+  position: absolute;
+  top: 4em;
+  width: 2.5em;
+}
+
+.penalty_ac{
+  border: 5px solid white;
+  height: 7em;
+  position: absolute;
+  top: 10.5em;
+  width: 6em;
+}
+
 div div#left_goal_area{
   border-left: none;
 }
+
+div div#left_goal{
+border-left: none;
+}
+
 div div#right_goal_area{
   border-right: none;
   right: 0;
 }
+
+div div#right_goal{
+border-right: none;
+right: 0;
+}
+
+div div#left_penalty_arc{
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 50%;
+  left: 3em;
+}
+
+div div#right_penalty_arc{
+  border-right:none;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 50%;
+  right: 0;
+  right: 3em;
+}
+
 div div#centre_cicle{
   border: 5px solid white;
   border-radius: 50%;
