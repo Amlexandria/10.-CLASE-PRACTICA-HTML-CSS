@@ -45,6 +45,11 @@ div#touch_Line{
   width: 6em;
 }
 
+.ball{
+  height: 2em;
+  width: 2em;
+}
+
 div div#left_goal_area{
   border-left: none;
 }
@@ -84,7 +89,7 @@ div div#center_cicle{
   border: 5px solid white;
   border-radius: 50%;
   height: 10em;
-  position: relative;
+  position: absolute;
   top: 9.5em;
   left: 18em;
   width: 10em;
@@ -97,4 +102,23 @@ div div#center_line{
   position: absolute;
   top: .03em;
   width: .3em;
+}
+
+div div#left_ball{
+  position: relative;
+  left: 6em;
+  top: 7em;
+}
+
+div div#center_ball{
+  position: absolute;
+  left: 24em;
+  top: 3em;
+}
+
+div div#right_ball{
+  position: absolute;
+  right:0;
+  right: 6em;
+  top: 20em;
 }
