@@ -1,0 +1,23 @@
+#box_1{
+  background-color: #FFCA28;
+  height: 30em;
+  width: 30em;
+  position: absolute;
+}
+
+#box_2{
+  background-color: #880E4F;
+  height: 15em;
+  width: 15em;
+  left: 7.5em;
+  position: relative;
+  top: 7.5em;
+}
+
+#box_3{
+  background-color: #2ECC71;
+  height: 7.5em;
+  width: 7.5em;
+  left: 0;
+  top: 0;
+}
