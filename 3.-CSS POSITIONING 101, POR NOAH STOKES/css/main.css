@@ -1,15 +1,24 @@
-div{
-  height: 12em;
-  width: 12em;
+div#text{
+  align: center;
+  font-family: 'Tajawal', sans-serif;
+  left: 10%;
+  position: absolute;
+  top: 10%;
+  width: 80%;
 }
 
- div#box_1{
+ div#box_2{
    background-color:  #FFCA28;
+   bottom: 0;
+   height: 3em;
+   left: 0;
+   position: fixed;
+   right: 0;
+   width: 100%;
  }
 
- div#box_2{
-   background-color:  #DCE775;
-   left: 6em;
-   position: absolute;
-   top: 0;
- }
+div#box_2 p {
+  left: 10%;
+  position: absolute;
+  font-family: 'Tajawal', sans-serif;
+}
