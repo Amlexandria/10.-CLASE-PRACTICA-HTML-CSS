@@ -1,0 +1,17 @@
+div{
+  position: static;
+  height: 12em;
+  width: 12em;
+}
+
+#top_box{
+  background-color: #FFCA28;
+}
+
+#center_box{
+  background-color: #7CB342;
+}
+
+#bottom_box{
+  background-color: #0288D1;
+}
