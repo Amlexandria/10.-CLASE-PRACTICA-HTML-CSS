@@ -1,19 +1,14 @@
 div{
-  position: absolute;
+  height: 12em;
+  width: 12em;
 }
 
  div#box_1{
    background-color:  #FFCA28;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   top: 0;
  }
 
  div#box_2{
    background-color:  #DCE775;
-   bottom: 0;
-   left: 0;
-   right: 15em;
-   top: 0;
+   left: 6em;
+   position: absolute;
  }
