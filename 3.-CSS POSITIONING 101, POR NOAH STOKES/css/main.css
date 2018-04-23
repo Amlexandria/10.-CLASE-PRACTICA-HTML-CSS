@@ -4,6 +4,13 @@ div{
   width: 12em;
 }
 
+ div div.inner{
+  position: absolute;
+  height: 3em;
+  width: 3em;
+  background-color: white;
+}
+
 #top_box{
   background-color: #FFCA28;
   top: 0;
@@ -26,4 +33,24 @@ div{
   background-color: #FF5722;
   bottom: 0;
   right: 0;
+}
+
+#top_inner_box{
+  left: 4em;
+  top: 4em;
+}
+
+#extra_inner_box{
+  bottom: 4em;
+  right: 4em;
+}
+
+#center_inner_box{
+  top: 4em;
+  right: 4em;
+}
+
+#bottom_inner_box{
+  bottom: 4em;
+  left: 4em;
 }
