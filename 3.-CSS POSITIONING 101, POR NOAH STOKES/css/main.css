@@ -1,5 +1,5 @@
 div{
-  position: static;
+  position: relative;
   height: 12em;
   width: 12em;
 }
