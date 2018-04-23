@@ -1,56 +1,19 @@
 div{
   position: absolute;
-  height: 12em;
-  width: 12em;
 }
 
- div div.inner{
-  position: absolute;
-  height: 3em;
-  width: 3em;
-  background-color: white;
-}
+ div#box_1{
+   background-color:  #FFCA28;
+   bottom: 1em;
+   left: 1em;
+   right: 1em;
+   top: 1em;
+ }
 
-#top_box{
-  background-color: #FFCA28;
-  top: 0;
-  left: 0;
-}
-
-#center_box{
-  background-color: #7CB342;
-  top: 0;
-  right: 0;
-}
-
-#bottom_box{
-  background-color: #0288D1;
-  bottom: 0;
-  left: 0;
-}
-
-#extra_box{
-  background-color: #FF5722;
-  bottom: 0;
-  right: 0;
-}
-
-#top_inner_box{
-  left: 4em;
-  top: 4em;
-}
-
-#extra_inner_box{
-  bottom: 4em;
-  right: 4em;
-}
-
-#center_inner_box{
-  top: 4em;
-  right: 4em;
-}
-
-#bottom_inner_box{
-  bottom: 4em;
-  left: 4em;
-}
+ div#box_2{
+   background-color:  #DCE775;
+   bottom: 2em;
+   left: 2em;
+   right: 2em;
+   top: 2em;
+ }
