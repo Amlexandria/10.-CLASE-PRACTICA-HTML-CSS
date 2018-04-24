@@ -1,24 +1,77 @@
-div#text{
-  align: center;
-  font-family: 'Tajawal', sans-serif;
-  left: 10%;
-  position: absolute;
-  top: 10%;
-  width: 80%;
+body{
+  background-color: #F2F3F4;
+  position: relative;
 }
 
- div#box_2{
-   background-color:  #FFCA28;
+header{
+  box-sizing: border-box;
+  background-color: #34495E;
+  display: inline-block;
+  height: 4em;
+  left: 20%;
+  top: 0;
+  width: 60%;
+  position: absolute;
+}
+
+header div{
+  height: 4em;
+  width: 6em;
+  box-sizing: border-box;
+  border: 1px solid #212F3C;
+  display: inline-block;
+}
+
+.link:hover{
+  background-color: #212F3C;
+}
+
+div.link p{
+  color: #ABB2B9;
+  font-family: 'Tajawal', sans-serif;
+  font-size: 13pt;
+  text-align: center;
+}
+
+div#column{
+  width: 30%;
+  background-color: #FFC300;
+  box-sizing: border-box;
+  padding: 1em;
+  position: inherit;
+  left: 90%;
+  top: 5em;
+}
+
+div#text{
+  box-sizing: border-box;
+  align: center;
+  background-color: white;
+  font-family: 'Tajawal', sans-serif;
+  left: 20%;
+  padding-left: 2em;
+  padding-right: 9em;
+  padding-top: 2em;
+  position: absolute;
+  top: 4em;
+  width: 60%;
+  margin-bottom: 3%;
+
+}
+
+footer{
+   background-color:  #CCD1D1;
    bottom: 0;
-   height: 3em;
-   left: 0;
+   height: 2.5em;
+   left: 20%;
    position: fixed;
    right: 0;
-   width: 100%;
+   width: 60%;
  }
 
-div#box_2 p {
-  left: 10%;
+footer p {
+  left: 5%;
   position: absolute;
   font-family: 'Tajawal', sans-serif;
+  font-size: 10pt;
 }
