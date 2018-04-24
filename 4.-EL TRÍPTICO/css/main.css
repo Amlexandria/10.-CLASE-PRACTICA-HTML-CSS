@@ -47,19 +47,28 @@ div div.pages {
   padding: 1em;
 
 }
-div div#a{
+div div#a {
 float: left;
 }
 
-div div#b{
+div div#b {
 float: left;
 }
-div div#c{
+div div#c {
 float: right;
 }
 
+img {
+  height: 10em;
+  width: 10em;
+}
+div #logo {
+  height: 6em;
+  width: 100%;
+}
+
 footer{
-  background-color: #48C9B0;
+  background-color: #A2C1BB;
   box-sizing: border-box;
   height: 3em;
   width: 60em;
@@ -68,5 +77,6 @@ footer{
   position: absolute;
   font-family: 'Quicksand', sans-serif;
   color: #117A65;
-  padding-left: 1em;
+  padding-top: 1em;
+  text-align: center;
 }
